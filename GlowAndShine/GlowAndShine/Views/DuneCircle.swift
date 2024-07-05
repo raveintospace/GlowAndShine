@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //  GlowAndShine
-//  https://medium.com/@uvolchyk/making-things-glow-and-shine-with-swiftui-80448c560f88
+//  
 //  Created by Uri on 5/7/24.
 //
 

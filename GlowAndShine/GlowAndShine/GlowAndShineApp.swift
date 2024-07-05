@@ -11,7 +11,7 @@ import SwiftUI
 struct GlowAndShineApp: App {
     var body: some Scene {
         WindowGroup {
-            DuneCircle()
+            ContentView()
         }
     }
 }
