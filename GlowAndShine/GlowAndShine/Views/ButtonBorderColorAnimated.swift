@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ButtonBorderColorAnimated: View {
     
-    @State var isAnimating: Bool = false
+    @State private var isAnimating: Bool = false
     private let myGradient: Gradient = Gradient(colors: [.red, .blue])
     
     var body: some View {
