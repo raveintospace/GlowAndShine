@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */; };
 		345BC8662C38420A00098BC1 /* GlowAndShineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */; };
 		345BC8682C38420A00098BC1 /* DuneCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8672C38420A00098BC1 /* DuneCircle.swift */; };
 		345BC86A2C38420C00098BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345BC8692C38420C00098BC1 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBorderColorAnimated.swift; sourceTree = "<group>"; };
 		345BC8622C38420A00098BC1 /* GlowAndShine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowAndShine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowAndShineApp.swift; sourceTree = "<group>"; };
 		345BC8672C38420A00098BC1 /* DuneCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneCircle.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				345BC8672C38420A00098BC1 /* DuneCircle.swift */,
 				345BC8772C3845CC00098BC1 /* GlowCapsule.swift */,
 				345BC87B2C38499200098BC1 /* ProgressView.swift */,
+				342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				345BC8782C3845CC00098BC1 /* GlowCapsule.swift in Sources */,
 				345BC8762C38459500098BC1 /* View.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
+				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
