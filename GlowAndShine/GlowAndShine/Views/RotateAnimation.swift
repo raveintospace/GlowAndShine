@@ -1,7 +1,7 @@
 //
 //  RotateAnimation.swift
 //  GlowAndShine
-//
+//  https://x.com/AlbertMoral/status/1811384208998514975
 //  Created by Uri on 11/7/24.
 //
 

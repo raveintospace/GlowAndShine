@@ -18,6 +18,7 @@
 		345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8792C3846D800098BC1 /* ShapeStyle.swift */; };
 		345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87B2C38499200098BC1 /* ProgressView.swift */; };
 		345BC87E2C384BA000098BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* ContentView.swift */; };
+		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		345BC8792C3846D800098BC1 /* ShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStyle.swift; sourceTree = "<group>"; };
 		345BC87B2C38499200098BC1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		345BC87D2C384BA000098BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				345BC87B2C38499200098BC1 /* ProgressView.swift */,
 				342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */,
 				342F69A42C40324C00324BAC /* RotateAnimation.swift */,
+				34D902B72C498591002E916F /* AppleLogoAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				342F69A52C40324C00324BAC /* RotateAnimation.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
+				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
