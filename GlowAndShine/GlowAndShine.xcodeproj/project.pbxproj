@@ -71,6 +71,7 @@
 			children = (
 				345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */,
 				345BC8742C38458500098BC1 /* Extensions */,
+				34FA2A8C2C4AAE1100EEDA3F /* Shapes */,
 				345BC8732C38457C00098BC1 /* Views */,
 				345BC8692C38420C00098BC1 /* Assets.xcassets */,
 				345BC86B2C38420C00098BC1 /* Preview Content */,
@@ -96,7 +97,6 @@
 				342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */,
 				342F69A42C40324C00324BAC /* RotateAnimation.swift */,
 				34D902B72C498591002E916F /* AppleLogoAnimation.swift */,
-				34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +108,14 @@
 				345BC8792C3846D800098BC1 /* ShapeStyle.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34FA2A8C2C4AAE1100EEDA3F /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
