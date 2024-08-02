@@ -1,7 +1,7 @@
 //
 //  RuleView.swift
 //  GlowAndShine
-//
+//  https://x.com/AlbertMoral/status/1819353794192593027
 //  Created by Uri on 2/8/24.
 //
 
