@@ -20,6 +20,7 @@
 		345BC87E2C384BA000098BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* ContentView.swift */; };
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
+		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
 		34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		345BC87D2C384BA000098BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
+		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
 		34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,14 +94,12 @@
 		345BC8732C38457C00098BC1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				345BC87D2C384BA000098BC1 /* ContentView.swift */,
-				345BC8672C38420A00098BC1 /* DuneCircle.swift */,
-				345BC8772C3845CC00098BC1 /* GlowCapsule.swift */,
-				345BC87B2C38499200098BC1 /* ProgressView.swift */,
+				34D916CE2C5D1D3C00A8662C /* GlowAndShineViews */,
 				342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */,
 				342F69A42C40324C00324BAC /* RotateAnimation.swift */,
 				34D902B72C498591002E916F /* AppleLogoAnimation.swift */,
 				34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */,
+				34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +111,17 @@
 				345BC8792C3846D800098BC1 /* ShapeStyle.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34D916CE2C5D1D3C00A8662C /* GlowAndShineViews */ = {
+			isa = PBXGroup;
+			children = (
+				345BC87D2C384BA000098BC1 /* ContentView.swift */,
+				345BC8672C38420A00098BC1 /* DuneCircle.swift */,
+				345BC8772C3845CC00098BC1 /* GlowCapsule.swift */,
+				345BC87B2C38499200098BC1 /* ProgressView.swift */,
+			);
+			path = GlowAndShineViews;
 			sourceTree = "<group>";
 		};
 		34FA2A8C2C4AAE1100EEDA3F /* Shapes */ = {
@@ -197,6 +208,7 @@
 				345BC8782C3845CC00098BC1 /* GlowCapsule.swift in Sources */,
 				345BC8762C38459500098BC1 /* View.swift in Sources */,
 				342F69A52C40324C00324BAC /* RotateAnimation.swift in Sources */,
+				34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */,
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */,
