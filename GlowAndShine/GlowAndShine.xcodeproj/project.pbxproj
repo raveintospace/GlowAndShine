@@ -21,6 +21,7 @@
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
+		34D916D22C5D202D00A8662C /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916D12C5D202D00A8662C /* RuleView.swift */; };
 		34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
+		34D916D12C5D202D00A8662C /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
 		34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 				34D902B72C498591002E916F /* AppleLogoAnimation.swift */,
 				34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */,
 				34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */,
+				34D916D12C5D202D00A8662C /* RuleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */,
+				34D916D22C5D202D00A8662C /* RuleView.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
