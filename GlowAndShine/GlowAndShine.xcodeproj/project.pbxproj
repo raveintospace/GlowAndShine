@@ -20,6 +20,8 @@
 		345BC87E2C384BA000098BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* ContentView.swift */; };
 		3470785B2C6F9CBE00F1B9B8 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */; };
 		3470785D2C6F9EFF00F1B9B8 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */; };
+		347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */; };
+		347078622C6FA32A00F1B9B8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347078612C6FA32A00F1B9B8 /* ConfettiView.swift */; };
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
@@ -42,6 +44,7 @@
 		345BC87D2C384BA000098BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		347078612C6FA32A00F1B9B8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +112,7 @@
 				34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */,
 				34D916D12C5D202D00A8662C /* RuleView.swift */,
 				3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */,
+				347078612C6FA32A00F1B9B8 /* ConfettiView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +162,9 @@
 			dependencies = (
 			);
 			name = GlowAndShine;
+			packageProductDependencies = (
+				3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */,
+			);
 			productName = GlowAndShine;
 			productReference = 345BC8622C38420A00098BC1 /* GlowAndShine.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 345BC8592C38420A00098BC1;
+			packageReferences = (
+				3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 345BC8632C38420A00098BC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -219,6 +230,7 @@
 				345BC8762C38459500098BC1 /* View.swift in Sources */,
 				342F69A52C40324C00324BAC /* RotateAnimation.swift in Sources */,
 				3470785D2C6F9EFF00F1B9B8 /* WaveView.swift in Sources */,
+				347078622C6FA32A00F1B9B8 /* ConfettiView.swift in Sources */,
 				34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */,
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
@@ -432,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 345BC85A2C38420A00098BC1 /* Project object */;
 }
