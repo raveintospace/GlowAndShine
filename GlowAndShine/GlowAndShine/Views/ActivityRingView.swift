@@ -1,7 +1,7 @@
 //
 //  ActivityRingView.swift
 //  GlowAndShine
-//
+//  https://x.com/AlbertMoral/status/1826332497485148353
 //  Created by Uri on 23/8/24.
 //
 
