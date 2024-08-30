@@ -24,6 +24,7 @@
 		347078622C6FA32A00F1B9B8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347078612C6FA32A00F1B9B8 /* ConfettiView.swift */; };
 		34879AFF2C78D81800FE13F3 /* StringAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */; };
 		34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34879B002C78DAD400FE13F3 /* ActivityRingView.swift */; };
+		34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */; };
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
@@ -49,6 +50,7 @@
 		347078612C6FA32A00F1B9B8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAnimationView.swift; sourceTree = "<group>"; };
 		34879B002C78DAD400FE13F3 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
+		34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBarsAnimation.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				347078612C6FA32A00F1B9B8 /* ConfettiView.swift */,
 				34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */,
 				34879B002C78DAD400FE13F3 /* ActivityRingView.swift */,
+				34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */,
+				34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */,
 				34D916D22C5D202D00A8662C /* RuleView.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
