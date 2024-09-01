@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct GaugeAnimation: View {
+    
+    @Environment(\.router) var router
     
     @State private var value = 0.5
     
@@ -18,12 +21,15 @@ struct GaugeAnimation: View {
             Spacer()
             gasSlider
             Spacer()
+            xButton
         }
     }
 }
 
 #Preview {
-    GaugeAnimation()
+    RouterView { _ in
+        GaugeAnimation()
+    }
 }
 
 extension GaugeAnimation {
@@ -31,9 +37,9 @@ extension GaugeAnimation {
     private var GasGauge: some View {
         Gauge(value: value) {
             Image(systemName: "fuelpump.fill")
-                .foregroundStyle(value < 0.3 ? .orange : .green)
+                .foregroundStyle(value < 0.2 ? .orange : .green)
                 .font(.headline)
-                .symbolEffect(.bounce, value: value < 0.3 ? value : 0.0)
+                .symbolEffect(.bounce, value: value < 0.2 ? value : 0.0)
         } currentValueLabel: {
             Text(value, format: .percent.precision(.fractionLength(1)))
                 .contentTransition(.numericText())
@@ -52,5 +58,15 @@ extension GaugeAnimation {
     minimumValueLabel: { Text("0") }
     maximumValueLabel: { Text("100") }
             .padding()
+    }
+    
+    private var xButton: some View {
+        Image(systemName: "xmark.seal")
+            .foregroundStyle(.red)
+            .font(.title)
+            .frame(maxWidth: .infinity, alignment: .center)
+            .onTapGesture {
+                router.dismissScreen()
+            }
     }
 }

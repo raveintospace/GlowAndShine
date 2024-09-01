@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct AppleLogoAnimation: View {
+    
+    @Environment(\.router) var router
     
     @State private var animate = false
     
@@ -29,13 +32,25 @@ struct AppleLogoAnimation: View {
                 .onAppear {
                     animate = true
             }
+            
+            Image(systemName: "xmark.seal")
+                .foregroundStyle(.red)
+                .font(.title)
+                .frame(maxHeight: .infinity, alignment: .top)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 50)
+                .onTapGesture {
+                    router.dismissScreen()
+                }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         .padding(.leading, 60)
     }
 }
 
 #Preview {
-    AppleLogoAnimation()
+    RouterView { _ in
+        AppleLogoAnimation()
+    }
 }
 

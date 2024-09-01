@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct InteractiveCard: View {
+    
+    @Environment(\.router) var router
     
     @State private var dragOffset: CGSize = .zero
     @State private var isDragging: Bool = false
@@ -20,11 +23,15 @@ struct InteractiveCard: View {
                 .shadow(radius: 15)
             ZStack {
                 RoundedRectangle(cornerRadius: 25)
-                    .fill(.black.gradient)
+                    .fill(LinearGradient(gradient: .init(colors: [.black, .gray, .black]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .frame(width: 300, height: 200)
-                Text("Interactive Card 🔥")
-                    .font(.title)
-                    .underline()
+                HStack {
+                    Text("Interactive Card")
+                        .underline()
+                    Text(" 🔥")
+                }
+                .font(.title)
+                .foregroundStyle(.orange.gradient)
             }
             .overlay(RoundedRectangle(cornerRadius: 25).stroke(.gray.opacity(0.3), lineWidth: 2))
             .rotation3DEffect(
@@ -42,9 +49,22 @@ struct InteractiveCard: View {
                 isDragging = false
                 withAnimation(.spring) { dragOffset = .zero }
             }).animation(isDragging ? .none : .spring(), value: dragOffset)
+        
+        Image(systemName: "xmark.seal")
+            .foregroundStyle(.red)
+            .font(.title)
+            .frame(maxHeight: .infinity, alignment: .top)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.leading, 30)
+            .padding(.top, 50)
+            .onTapGesture {
+                router.dismissScreen()
+            }
     }
 }
 
 #Preview {
-    InteractiveCard()
+    RouterView { _ in
+        InteractiveCard()
+    }
 }

@@ -29,6 +29,21 @@ struct ContentView: View {
                     RotateAnimation()
                 }
             }
+            Button("Open Apple Logo Animation") {
+                router.showScreen(.fullScreenCover) { _ in
+                    AppleLogoAnimation()
+                }
+            }
+            Button("Open Gauge Animation") {
+                router.showScreen(.fullScreenCover) { _ in
+                    GaugeAnimation()
+                }
+            }
+            Button("Open Interactive Card") {
+                router.showScreen(.fullScreenCover) { _ in
+                    InteractiveCard()
+                }
+            }
         }
     }
 }
