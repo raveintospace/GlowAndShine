@@ -17,7 +17,7 @@
 		345BC8782C3845CC00098BC1 /* GlowCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8772C3845CC00098BC1 /* GlowCapsule.swift */; };
 		345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8792C3846D800098BC1 /* ShapeStyle.swift */; };
 		345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87B2C38499200098BC1 /* ProgressView.swift */; };
-		345BC87E2C384BA000098BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* ContentView.swift */; };
+		345BC87E2C384BA000098BC1 /* GlowContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* GlowContentView.swift */; };
 		3470785B2C6F9CBE00F1B9B8 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */; };
 		3470785D2C6F9EFF00F1B9B8 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */; };
 		347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */; };
@@ -26,6 +26,8 @@
 		34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34879B002C78DAD400FE13F3 /* ActivityRingView.swift */; };
 		34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */; };
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
+		34CCB90C2C84D26F00D151F7 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */; };
+		34CCB90E2C84D2C300D151F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB90D2C84D2C300D151F7 /* ContentView.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
 		34D916D22C5D202D00A8662C /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916D12C5D202D00A8662C /* RuleView.swift */; };
@@ -44,7 +46,7 @@
 		345BC8772C3845CC00098BC1 /* GlowCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowCapsule.swift; sourceTree = "<group>"; };
 		345BC8792C3846D800098BC1 /* ShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStyle.swift; sourceTree = "<group>"; };
 		345BC87B2C38499200098BC1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
-		345BC87D2C384BA000098BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		345BC87D2C384BA000098BC1 /* GlowContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowContentView.swift; sourceTree = "<group>"; };
 		3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		347078612C6FA32A00F1B9B8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		34879B002C78DAD400FE13F3 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
 		34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBarsAnimation.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
+		34CCB90D2C84D2C300D151F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
 		34D916D12C5D202D00A8662C /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */,
+				34CCB90C2C84D26F00D151F7 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */,
+				34CCB90D2C84D2C300D151F7 /* ContentView.swift */,
 				345BC8742C38458500098BC1 /* Extensions */,
 				34FA2A8C2C4AAE1100EEDA3F /* Shapes */,
 				345BC8732C38457C00098BC1 /* Views */,
@@ -138,7 +143,7 @@
 		34D916CE2C5D1D3C00A8662C /* GlowAndShineViews */ = {
 			isa = PBXGroup;
 			children = (
-				345BC87D2C384BA000098BC1 /* ContentView.swift */,
+				345BC87D2C384BA000098BC1 /* GlowContentView.swift */,
 				345BC8672C38420A00098BC1 /* DuneCircle.swift */,
 				345BC8772C3845CC00098BC1 /* GlowCapsule.swift */,
 				345BC87B2C38499200098BC1 /* ProgressView.swift */,
@@ -173,6 +178,7 @@
 			name = GlowAndShine;
 			packageProductDependencies = (
 				3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */,
+				34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */,
 			);
 			productName = GlowAndShine;
 			productReference = 345BC8622C38420A00098BC1 /* GlowAndShine.app */;
@@ -204,6 +210,7 @@
 			mainGroup = 345BC8592C38420A00098BC1;
 			packageReferences = (
 				3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				34CCB90A2C84D26F00D151F7 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 			);
 			productRefGroup = 345BC8632C38420A00098BC1 /* Products */;
 			projectDirPath = "";
@@ -233,8 +240,9 @@
 			files = (
 				345BC8682C38420A00098BC1 /* DuneCircle.swift in Sources */,
 				3470785B2C6F9CBE00F1B9B8 /* WaveShape.swift in Sources */,
+				34CCB90E2C84D2C300D151F7 /* ContentView.swift in Sources */,
 				345BC8662C38420A00098BC1 /* GlowAndShineApp.swift in Sources */,
-				345BC87E2C384BA000098BC1 /* ContentView.swift in Sources */,
+				345BC87E2C384BA000098BC1 /* GlowContentView.swift in Sources */,
 				345BC8782C3845CC00098BC1 /* GlowCapsule.swift in Sources */,
 				345BC8762C38459500098BC1 /* View.swift in Sources */,
 				342F69A52C40324C00324BAC /* RotateAnimation.swift in Sources */,
@@ -466,6 +474,14 @@
 				minimumVersion = 1.1.0;
 			};
 		};
+		34CCB90A2C84D26F00D151F7 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -473,6 +489,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
+		};
+		34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34CCB90A2C84D26F00D151F7 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

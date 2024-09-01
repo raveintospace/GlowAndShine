@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
-struct ContentView: View {
+struct GlowContentView: View {
+    
+    @Environment(\.router) var router
     
     @State private var progress1: Double = 0.0
     @State private var progress2: Double = 0.0
@@ -17,6 +20,12 @@ struct ContentView: View {
             ProgressView(progress: progress1)
             ProgressView(progress: progress2)
                 .rotationEffect(.degrees(180.0))
+            Text("X")
+                .bold()
+                .font(.system(size: 30))
+                .onTapGesture {
+                    router.dismissScreen()
+                }
         }
         .onAppear() {
             withAnimation(
@@ -37,5 +46,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    RouterView { _ in
+        GlowContentView()
+    }
 }
