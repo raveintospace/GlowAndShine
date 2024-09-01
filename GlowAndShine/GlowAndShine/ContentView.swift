@@ -49,6 +49,11 @@ struct ContentView: View {
                     RuleView()
                 }
             }
+            Button("Open Wave View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    WaveView()
+                }
+            }
         }
     }
 }
