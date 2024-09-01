@@ -6,13 +6,24 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct RotateAnimation: View {
+    
+    @Environment(\.router) var router
     
     @State private var counter = 0
     
     var body: some View {
         HStack {
+            Image(systemName: "xmark.seal")
+                .foregroundStyle(.red)
+                .font(.title)
+                .padding()
+                .onTapGesture {
+                    router.dismissScreen()
+                }
+            
             Image(systemName: "fan.desk")
                 .symbolEffect(.bounce, value: counter)
                 .font(.system(size: 120))
@@ -28,5 +39,7 @@ struct RotateAnimation: View {
 }
 
 #Preview {
-    RotateAnimation()
+    RouterView { _ in
+        RotateAnimation()
+    }
 }

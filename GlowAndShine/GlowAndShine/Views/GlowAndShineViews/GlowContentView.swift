@@ -27,6 +27,7 @@ struct GlowContentView: View {
                     router.dismissScreen()
                 }
         }
+        .padding()
         .onAppear() {
             withAnimation(
                 .linear(duration: 2.0)

@@ -19,6 +19,16 @@ struct ContentView: View {
                     GlowContentView()
                 }
             }
+            Button("Open Button Border Color Animated") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ButtonBorderColorAnimated()
+                }
+            }
+            Button("Open Rotate Animation") {
+                router.showScreen(.fullScreenCover) { _ in
+                    RotateAnimation()
+                }
+            }
         }
     }
 }

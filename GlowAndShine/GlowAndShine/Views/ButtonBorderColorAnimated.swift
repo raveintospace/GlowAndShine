@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct ButtonBorderColorAnimated: View {
+    
+    @Environment(\.router) var router
     
     @State private var isAnimating: Bool = false
     private let myGradient: Gradient = Gradient(colors: [.red, .blue])
@@ -31,6 +34,17 @@ struct ButtonBorderColorAnimated: View {
                 .frame(width: 200, height: 80)
                 .background(.black)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
+            
+            Image(systemName: "xmark.seal")
+                .foregroundStyle(.red)
+                .font(.title)
+                .frame(maxHeight: .infinity, alignment: .top)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 30)
+                .padding(.top, 50)
+                .onTapGesture {
+                    router.dismissScreen()
+                }
         }
         .ignoresSafeArea()
         .onAppear {
@@ -40,5 +54,7 @@ struct ButtonBorderColorAnimated: View {
 }
 
 #Preview {
-    ButtonBorderColorAnimated()
+    RouterView { _ in
+        ButtonBorderColorAnimated()
+    }
 }
