@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct RuleView: View {
+    
+    @Environment(\.router) var router
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 15)
@@ -53,6 +57,11 @@ struct RuleView: View {
                 .rotationEffect(.degrees(180))
                 .foregroundStyle(.red)
                 .offset(y: -50)
+            
+            RedXMarkButton()
+                .onTapGesture {
+                    router.dismissScreen()
+                }
         }
         .padding(.top)
         
@@ -61,5 +70,7 @@ struct RuleView: View {
 }
 
 #Preview {
-    RuleView()
+    RouterView { _ in
+        RuleView()
+    }
 }

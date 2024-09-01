@@ -28,6 +28,7 @@
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34CCB90C2C84D26F00D151F7 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */; };
 		34CCB90E2C84D2C300D151F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB90D2C84D2C300D151F7 /* ContentView.swift */; };
+		34CCB9112C84DB6400D151F7 /* RedXMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB9102C84DB6400D151F7 /* RedXMarkButton.swift */; };
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
 		34D916D22C5D202D00A8662C /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916D12C5D202D00A8662C /* RuleView.swift */; };
@@ -55,6 +56,7 @@
 		34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBarsAnimation.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34CCB90D2C84D2C300D151F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34CCB9102C84DB6400D151F7 /* RedXMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedXMarkButton.swift; sourceTree = "<group>"; };
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
 		34D916D12C5D202D00A8662C /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */,
 				34CCB90D2C84D2C300D151F7 /* ContentView.swift */,
 				345BC8742C38458500098BC1 /* Extensions */,
+				34CCB90F2C84DB4400D151F7 /* Shared */,
 				34FA2A8C2C4AAE1100EEDA3F /* Shapes */,
 				345BC8732C38457C00098BC1 /* Views */,
 				345BC8692C38420C00098BC1 /* Assets.xcassets */,
@@ -138,6 +141,14 @@
 				345BC8792C3846D800098BC1 /* ShapeStyle.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34CCB90F2C84DB4400D151F7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				34CCB9102C84DB6400D151F7 /* RedXMarkButton.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		34D916CE2C5D1D3C00A8662C /* GlowAndShineViews */ = {
@@ -251,6 +262,7 @@
 				34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */,
 				34879AFF2C78D81800FE13F3 /* StringAnimationView.swift in Sources */,
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
+				34CCB9112C84DB6400D151F7 /* RedXMarkButton.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */,
 				34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */,

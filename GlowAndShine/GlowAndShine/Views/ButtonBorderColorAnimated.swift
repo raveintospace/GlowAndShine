@@ -35,13 +35,7 @@ struct ButtonBorderColorAnimated: View {
                 .background(.black)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
             
-            Image(systemName: "xmark.seal")
-                .foregroundStyle(.red)
-                .font(.title)
-                .frame(maxHeight: .infinity, alignment: .top)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.leading, 30)
-                .padding(.top, 50)
+            RedXMarkButton()
                 .onTapGesture {
                     router.dismissScreen()
                 }

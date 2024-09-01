@@ -50,13 +50,7 @@ struct InteractiveCard: View {
                 withAnimation(.spring) { dragOffset = .zero }
             }).animation(isDragging ? .none : .spring(), value: dragOffset)
         
-        Image(systemName: "xmark.seal")
-            .foregroundStyle(.red)
-            .font(.title)
-            .frame(maxHeight: .infinity, alignment: .top)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.leading, 30)
-            .padding(.top, 50)
+        RedXMarkButton()
             .onTapGesture {
                 router.dismissScreen()
             }

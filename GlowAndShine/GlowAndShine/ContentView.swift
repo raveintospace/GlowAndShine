@@ -44,6 +44,11 @@ struct ContentView: View {
                     InteractiveCard()
                 }
             }
+            Button("Open Rule View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    RuleView()
+                }
+            }
         }
     }
 }
