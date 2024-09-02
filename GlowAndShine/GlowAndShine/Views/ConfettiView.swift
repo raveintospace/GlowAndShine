@@ -8,45 +8,63 @@
 
 import SwiftUI
 import ConfettiSwiftUI
+import SwiftfulRouting
 
 struct ConfettiView: View {
 
+    @Environment(\.router) var router
+    
     @State private var confettiCounter: Int = 0
     
     var body: some View {
-        ZStack {
-            ConfettiCannon(
-                counter: $confettiCounter,
-                num: 50,
-                fadesOut: false,
-                openingAngle: .degrees(0),
-                closingAngle: .degrees(360),
-                radius: 200
-            )
+        VStack {
+            ZStack {
+                ConfettiCannon(
+                    counter: $confettiCounter,
+                    num: 50,
+                    fadesOut: false,
+                    openingAngle: .degrees(0),
+                    closingAngle: .degrees(360),
+                    radius: 200
+                )
+                
+                ConfettiCannon(
+                    counter: $confettiCounter,
+                    num: 30,
+                    confettis: [.text("💙"), .text("♥️")],
+                    confettiSize: 20,
+                    radius: 300
+                )
+                
+                Text("🥳")
+                    .font(.system(size: 150))
+                    .onTapGesture {
+                        confettiCounter += 1
+                    }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             
-            ConfettiCannon(
-                counter: $confettiCounter,
-                num: 30,
-                confettis: [.text("💙"), .text("♥️")],
-                confettiSize: 20,
-                radius: 300
-            )
-            
-            Text("🥳")
-                .font(.system(size: 150))
-                .onTapGesture {
+            VStack {
+                Button("Fast confetti 🎉") {
                     confettiCounter += 1
                 }
+                .confettiCannon(counter: $confettiCounter)
+                
+                Image(systemName: "xmark.seal")
+                    .foregroundStyle(.red)
+                    .font(.title)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.top)
+                    .onTapGesture {
+                        router.dismissScreen()
+                    }
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        
-        Button("Fast confetti 🎉") {
-            confettiCounter += 1
-        }
-        .confettiCannon(counter: $confettiCounter)
     }
 }
 
 #Preview {
-    ConfettiView()
+    RouterView { _ in
+        ConfettiView()
+    }
 }

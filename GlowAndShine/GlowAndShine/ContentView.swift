@@ -54,6 +54,11 @@ struct ContentView: View {
                     WaveView()
                 }
             }
+            Button("Open Confetti View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ConfettiView()
+                }
+            }
         }
     }
 }
