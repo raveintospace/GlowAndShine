@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
-struct ActivityRingView: View {
+struct CustomActivityRing: View {
     
     let progress: CGFloat
     let color: Color
@@ -27,7 +28,9 @@ struct ActivityRingView: View {
     }
 }
 
-struct ActivityRings: View {
+struct ActivityRingsView: View {
+    
+    @Environment(\.router) var router
     
     @State private var progress: CGFloat = 0.0
     
@@ -37,11 +40,11 @@ struct ActivityRings: View {
             
             VStack {
                 ZStack {
-                    ActivityRingView(progress: progress, color: .red, ringWidth: 20)
+                    CustomActivityRing(progress: progress, color: .red, ringWidth: 20)
                         .frame(width: 250, height: 250)
-                    ActivityRingView(progress: progress, color: .blue, ringWidth: 18)
+                    CustomActivityRing(progress: progress, color: .blue, ringWidth: 18)
                         .frame(width: 200, height: 200)
-                    ActivityRingView(progress: progress, color: .green, ringWidth: 16)
+                    CustomActivityRing(progress: progress, color: .green, ringWidth: 16)
                         .frame(width: 150, height: 150)
                     Text(progress, format: .percent.precision(.fractionLength(1)))
                         .font(.system(.largeTitle, design: .rounded, weight: .bold))
@@ -52,6 +55,15 @@ struct ActivityRings: View {
                 Slider(value: $progress, in: 0...1)
                     .padding(.horizontal, 20)
                     .padding(.vertical)
+                
+                Image(systemName: "xmark.seal")
+                    .foregroundStyle(.red)
+                    .font(.title)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.top)
+                    .onTapGesture {
+                        router.dismissScreen()
+                    }
             }
         }
     }
@@ -59,5 +71,7 @@ struct ActivityRings: View {
 
 
 #Preview {
-    ActivityRings()
+    RouterView { _ in
+        ActivityRingsView()
+    }
 }

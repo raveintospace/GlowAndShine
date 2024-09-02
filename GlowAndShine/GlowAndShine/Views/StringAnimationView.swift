@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct StringAnimationView: View {
+    
+    @Environment(\.router) var router
     
     private let text: String = "SwiftUI Views"
     private let colors: [Color] = [Color.blue, .orange, .green, .purple, .red, .brown, .white, .pink, .indigo, .mint, .yellow]
@@ -15,27 +18,37 @@ struct StringAnimationView: View {
     @State private var isAnimating: Bool = false
     
     var body: some View {
-        ForEach(colors, id: \.self) { color in
-            HStack(spacing: 0) {
-                ForEach(Array(text.enumerated()), id: \.offset) { index, letter in
-                    Text(String(letter))
-                        .font(.system(size: 50, weight: .heavy, design: .rounded))
-                        .foregroundStyle(color.gradient)
-                        .rotation3DEffect(
-                            .degrees(isAnimating ? 360 : 0),
-                            axis: (x: 1, y: 0, z: 0))
-                        .animation(.spring(duration: 1)
-                            .repeatForever(autoreverses: false)
-                            .delay(Double(index) * 0.1), value: isAnimating)
+        VStack(spacing: 5) {
+            RedXMarkButton()
+                .padding(.top, -30)
+                .onTapGesture {
+                    router.dismissScreen()
+                }
+            
+            ForEach(colors, id: \.self) { color in
+                HStack(spacing: 0) {
+                    ForEach(Array(text.enumerated()), id: \.offset) { index, letter in
+                        Text(String(letter))
+                            .font(.system(size: 50, weight: .heavy, design: .rounded))
+                            .foregroundStyle(color.gradient)
+                            .rotation3DEffect(
+                                .degrees(isAnimating ? 360 : 0),
+                                axis: (x: 1, y: 0, z: 0))
+                            .animation(.spring(duration: 1)
+                                .repeatForever(autoreverses: false)
+                                .delay(Double(index) * 0.1), value: isAnimating)
+                    }
                 }
             }
-        }
-        .onAppear {
-            isAnimating = true
+            .onAppear {
+                isAnimating = true
+            }
         }
     }
 }
 
 #Preview {
-    StringAnimationView()
+    RouterView { _ in
+        StringAnimationView()
+    }
 }

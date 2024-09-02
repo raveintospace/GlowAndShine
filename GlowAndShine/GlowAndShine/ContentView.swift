@@ -59,6 +59,16 @@ struct ContentView: View {
                     ConfettiView()
                 }
             }
+            Button("Open String Animation View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    StringAnimationView()
+                }
+            }
+            Button("Open Activity Rings View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ActivityRingsView()
+                }
+            }
         }
     }
 }
