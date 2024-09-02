@@ -1,18 +1,25 @@
 //
 //  ColorBarsAnimation.swift
 //  GlowAndShine
-// https://www.linkedin.com/posts/dmitry-%D0%B2-421219229_ios-animation-swift-activity-7233187923041374208-007v?utm_source=share&utm_medium=member_desktop
+//  https://shorturl.at/fMLUN
 //  Created by Uri on 30/8/24.
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 struct ColorBarsAnimation: View {
+    
+    @Environment(\.router) var router
     
     @State private var currentIndex: Int = 0
     let colors: [Color] = [.blue, .green, .yellow, .orange, .red]
     
     var body: some View {
+        RedXMarkButton()
+            .onTapGesture {
+                router.dismissScreen()
+            }
         HStack(spacing: 10) {
             ForEach(0..<5) { index in
                 RoundedRectangle(cornerRadius: 20)
@@ -28,7 +35,9 @@ struct ColorBarsAnimation: View {
 }
 
 #Preview {
-    ColorBarsAnimation()
+    RouterView { _ in
+        ColorBarsAnimation()
+    }
 }
 
 extension ColorBarsAnimation {
@@ -40,4 +49,4 @@ extension ColorBarsAnimation {
     }
 }
 
-// when currentIndex == 0, %5 resets it to 0
+// when currentIndex == 0, % 5 resets it to 0

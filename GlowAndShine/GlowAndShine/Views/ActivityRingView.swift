@@ -32,7 +32,7 @@ struct ActivityRingsView: View {
     
     @Environment(\.router) var router
     
-    @State private var progress: CGFloat = 0.0
+    @State private var progress: CGFloat = 0.46
     
     var body: some View {
         ZStack {

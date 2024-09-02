@@ -20,9 +20,9 @@ struct GlowContentView: View {
             ProgressView(progress: progress1)
             ProgressView(progress: progress2)
                 .rotationEffect(.degrees(180.0))
-            Text("X")
-                .bold()
-                .font(.system(size: 30))
+            Image(systemName: "xmark.seal")
+                .foregroundStyle(.red)
+                .font(.title)
                 .onTapGesture {
                     router.dismissScreen()
                 }

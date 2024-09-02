@@ -69,6 +69,11 @@ struct ContentView: View {
                     ActivityRingsView()
                 }
             }
+            Button("Open Color Bars animation") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ColorBarsAnimation()
+                }
+            }
         }
     }
 }
