@@ -74,6 +74,16 @@ struct ContentView: View {
                     ColorBarsAnimation()
                 }
             }
+            Button("Open Numeric Transition") {
+                router.showScreen(.fullScreenCover) { _ in
+                    NumericTransition()
+                }
+            }
+            Button("Open Numeric Countdown") {
+                router.showScreen(.fullScreenCover) { _ in
+                    NumericCountdown()
+                }
+            }
         }
     }
 }

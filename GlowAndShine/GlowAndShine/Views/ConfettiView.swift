@@ -30,10 +30,10 @@ struct ConfettiView: View {
                 
                 ConfettiCannon(
                     counter: $confettiCounter,
-                    num: 30,
-                    confettis: [.text("💙"), .text("♥️")],
-                    confettiSize: 20,
-                    radius: 300
+                    num: 10,
+                    confettis: [.text("⭐️"), .text("✨")],
+                    confettiSize: 100,
+                    radius: 100
                 )
                 
                 Text("🥳")

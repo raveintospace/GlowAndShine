@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */; };
 		342F69A52C40324C00324BAC /* RotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F69A42C40324C00324BAC /* RotateAnimation.swift */; };
+		34525D222CA9ABCC00CA1FDA /* NumericTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34525D212CA9ABCC00CA1FDA /* NumericTransition.swift */; };
+		34525D242CA9B04F00CA1FDA /* NumericCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34525D232CA9B04F00CA1FDA /* NumericCountdown.swift */; };
 		345BC8662C38420A00098BC1 /* GlowAndShineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */; };
 		345BC8682C38420A00098BC1 /* DuneCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC8672C38420A00098BC1 /* DuneCircle.swift */; };
 		345BC86A2C38420C00098BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345BC8692C38420C00098BC1 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		342F69A22C402EB300324BAC /* ButtonBorderColorAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBorderColorAnimated.swift; sourceTree = "<group>"; };
 		342F69A42C40324C00324BAC /* RotateAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimation.swift; sourceTree = "<group>"; };
+		34525D212CA9ABCC00CA1FDA /* NumericTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTransition.swift; sourceTree = "<group>"; };
+		34525D232CA9B04F00CA1FDA /* NumericCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericCountdown.swift; sourceTree = "<group>"; };
 		345BC8622C38420A00098BC1 /* GlowAndShine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowAndShine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345BC8652C38420A00098BC1 /* GlowAndShineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowAndShineApp.swift; sourceTree = "<group>"; };
 		345BC8672C38420A00098BC1 /* DuneCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneCircle.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */,
 				34879B002C78DAD400FE13F3 /* ActivityRingView.swift */,
 				34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */,
+				34525D212CA9ABCC00CA1FDA /* NumericTransition.swift */,
+				34525D232CA9B04F00CA1FDA /* NumericCountdown.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,11 +270,13 @@
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				34CCB9112C84DB6400D151F7 /* RedXMarkButton.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
+				34525D222CA9ABCC00CA1FDA /* NumericTransition.swift in Sources */,
 				34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */,
 				34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */,
 				34D916D22C5D202D00A8662C /* RuleView.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
+				34525D242CA9B04F00CA1FDA /* NumericCountdown.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 				34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */,
 			);
