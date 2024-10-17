@@ -44,7 +44,7 @@ extension ColorBarsAnimation {
     
     private func startAnimation() {
         Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true) { timer in
-            currentIndex = (currentIndex + 1) % 5
+            currentIndex = (currentIndex + 1) % colors.count
         }
     }
 }

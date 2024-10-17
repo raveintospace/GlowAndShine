@@ -84,6 +84,11 @@ struct ContentView: View {
                     NumericCountdown()
                 }
             }
+            Button("Open Sheet Corner Radius") {
+                router.showScreen(.fullScreenCover) { _ in
+                    SheetCornerRadius()
+                }
+            }
         }
     }
 }

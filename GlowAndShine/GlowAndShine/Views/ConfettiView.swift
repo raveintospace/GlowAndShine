@@ -11,7 +11,7 @@ import ConfettiSwiftUI
 import SwiftfulRouting
 
 struct ConfettiView: View {
-
+    
     @Environment(\.router) var router
     
     @State private var confettiCounter: Int = 0
