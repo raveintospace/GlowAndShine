@@ -30,6 +30,7 @@
 		34C22B4B2CC170C10096AF86 /* SheetCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C22B4A2CC170C10096AF86 /* SheetCornerRadius.swift */; };
 		34C22B4D2CC174760096AF86 /* CompareImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C22B4C2CC174760096AF86 /* CompareImages.swift */; };
 		34C22B4F2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */; };
+		34C22B512CC17E290096AF86 /* ParallaxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C22B502CC17E290096AF86 /* ParallaxExample.swift */; };
 		34C2498F2C4BD14A00FBC68D /* GaugeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */; };
 		34CCB90C2C84D26F00D151F7 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */; };
 		34CCB90E2C84D2C300D151F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB90D2C84D2C300D151F7 /* ContentView.swift */; };
@@ -64,6 +65,7 @@
 		34C22B4A2CC170C10096AF86 /* SheetCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCornerRadius.swift; sourceTree = "<group>"; };
 		34C22B4C2CC174760096AF86 /* CompareImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareImages.swift; sourceTree = "<group>"; };
 		34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVisualEffect.swift; sourceTree = "<group>"; };
+		34C22B502CC17E290096AF86 /* ParallaxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxExample.swift; sourceTree = "<group>"; };
 		34C2498E2C4BD14A00FBC68D /* GaugeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAnimation.swift; sourceTree = "<group>"; };
 		34CCB90D2C84D2C300D151F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34CCB9102C84DB6400D151F7 /* RedXMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedXMarkButton.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				34C22B4A2CC170C10096AF86 /* SheetCornerRadius.swift */,
 				34C22B4C2CC174760096AF86 /* CompareImages.swift */,
 				34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */,
+				34C22B502CC17E290096AF86 /* ParallaxExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				34879AFF2C78D81800FE13F3 /* StringAnimationView.swift in Sources */,
 				34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */,
 				34C22B4F2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift in Sources */,
+				34C22B512CC17E290096AF86 /* ParallaxExample.swift in Sources */,
 				34CCB9112C84DB6400D151F7 /* RedXMarkButton.swift in Sources */,
 				345BC87A2C3846D800098BC1 /* ShapeStyle.swift in Sources */,
 				34C22B4B2CC170C10096AF86 /* SheetCornerRadius.swift in Sources */,

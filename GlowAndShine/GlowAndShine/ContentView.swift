@@ -99,6 +99,11 @@ struct ContentView: View {
                     ScrollViewVisualEffect()
                 }
             }
+            Button("Open ParallaxExample") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ParallaxExample()
+                }
+            }
         }
     }
 }
