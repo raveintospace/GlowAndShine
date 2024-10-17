@@ -1,7 +1,7 @@
 //
 //  CompareImages.swift
 //  GlowAndShine
-//
+//  https://x.com/AlbertMoral/status/1825523324027326646
 //  Created by Uri on 17/10/24.
 //
 

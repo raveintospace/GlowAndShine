@@ -1,7 +1,7 @@
 //
 //  SheetCornerRadius.swift
 //  GlowAndShine
-//
+//  https://x.com/ios_dev_alb/status/1845777836839198892/photo/1
 //  Created by Uri on 17/10/24.
 //
 

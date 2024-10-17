@@ -94,6 +94,11 @@ struct ContentView: View {
                     CompareImages()
                 }
             }
+            Button("Open ScrollView Visual Effect") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ScrollViewVisualEffect()
+                }
+            }
         }
     }
 }
