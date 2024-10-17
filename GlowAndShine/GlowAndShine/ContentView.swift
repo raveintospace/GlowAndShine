@@ -89,6 +89,11 @@ struct ContentView: View {
                     SheetCornerRadius()
                 }
             }
+            Button("Open Compare Images") {
+                router.showScreen(.fullScreenCover) { _ in
+                    CompareImages()
+                }
+            }
         }
     }
 }
