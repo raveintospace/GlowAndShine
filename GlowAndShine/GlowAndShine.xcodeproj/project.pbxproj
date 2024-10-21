@@ -24,6 +24,8 @@
 		3470785D2C6F9EFF00F1B9B8 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */; };
 		347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */; };
 		347078622C6FA32A00F1B9B8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347078612C6FA32A00F1B9B8 /* ConfettiView.swift */; };
+		34858D882CC2C59700F97AE9 /* ZoomAndPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */; };
+		34858D8B2CC2C5E900F97AE9 /* Zoomable in Frameworks */ = {isa = PBXBuildFile; productRef = 34858D8A2CC2C5E900F97AE9 /* Zoomable */; };
 		34879AFF2C78D81800FE13F3 /* StringAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */; };
 		34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34879B002C78DAD400FE13F3 /* ActivityRingView.swift */; };
 		34A0A2962C820C2D00DCC628 /* ColorBarsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */; };
@@ -59,6 +61,7 @@
 		3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		347078612C6FA32A00F1B9B8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndPan.swift; sourceTree = "<group>"; };
 		34879AFE2C78D81800FE13F3 /* StringAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAnimationView.swift; sourceTree = "<group>"; };
 		34879B002C78DAD400FE13F3 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
 		34A0A2952C820C2D00DCC628 /* ColorBarsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBarsAnimation.swift; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 			files = (
 				347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */,
 				34CCB90C2C84D26F00D151F7 /* SwiftfulRouting in Frameworks */,
+				34858D8B2CC2C5E900F97AE9 /* Zoomable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +152,7 @@
 				34C22B4C2CC174760096AF86 /* CompareImages.swift */,
 				34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */,
 				34C22B502CC17E290096AF86 /* ParallaxExample.swift */,
+				34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			packageProductDependencies = (
 				3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */,
 				34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */,
+				34858D8A2CC2C5E900F97AE9 /* Zoomable */,
 			);
 			productName = GlowAndShine;
 			productReference = 345BC8622C38420A00098BC1 /* GlowAndShine.app */;
@@ -240,6 +246,7 @@
 			packageReferences = (
 				3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 				34CCB90A2C84D26F00D151F7 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				34858D892CC2C5E900F97AE9 /* XCRemoteSwiftPackageReference "Zoomable" */,
 			);
 			productRefGroup = 345BC8632C38420A00098BC1 /* Products */;
 			projectDirPath = "";
@@ -295,6 +302,7 @@
 				34525D242CA9B04F00CA1FDA /* NumericCountdown.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 				34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */,
+				34858D882CC2C59700F97AE9 /* ZoomAndPan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +518,14 @@
 				minimumVersion = 1.1.0;
 			};
 		};
+		34858D892CC2C5E900F97AE9 /* XCRemoteSwiftPackageReference "Zoomable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ryohey/Zoomable.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		34CCB90A2C84D26F00D151F7 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
@@ -525,6 +541,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3470785E2C6FA30D00F1B9B8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
+		};
+		34858D8A2CC2C5E900F97AE9 /* Zoomable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34858D892CC2C5E900F97AE9 /* XCRemoteSwiftPackageReference "Zoomable" */;
+			productName = Zoomable;
 		};
 		34CCB90B2C84D26F00D151F7 /* SwiftfulRouting */ = {
 			isa = XCSwiftPackageProductDependency;

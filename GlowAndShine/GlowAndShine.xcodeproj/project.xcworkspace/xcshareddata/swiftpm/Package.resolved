@@ -1,5 +1,5 @@
 {
-  "originHash" : "dae6c22b4cea784b8785bcdd0eca8e2f601095c2077e8d56be58253b63d557e5",
+  "originHash" : "5df35a82a5e2369a508106d857df02467b74ae2f320d2cbd8ab20ef2d8d82eb3",
   "pins" : [
     {
       "identity" : "confettiswiftui",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "bf0a8b4628b0e24d60f090b382c15b96329ab92c",
         "version" : "5.3.6"
+      }
+    },
+    {
+      "identity" : "zoomable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ryohey/Zoomable.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "525c0e1784825261b84d21c5cd5a159245a40ea6"
       }
     }
   ],
