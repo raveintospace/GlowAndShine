@@ -104,6 +104,11 @@ struct ContentView: View {
                     AnimatedVisualScroll()
                 }
             }
+            Button("Open Horizontal Animated Scroll") {
+                router.showScreen(.fullScreenCover) { _ in
+                    HorizontalAnimatedScroll()
+                }
+            }
             Button("Open ParallaxExample") {
                 router.showScreen(.fullScreenCover) { _ in
                     ParallaxExample()

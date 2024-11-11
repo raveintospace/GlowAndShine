@@ -17,7 +17,7 @@ struct AnimatedVisualScroll: View {
             LazyVStack {
                 ForEach(0..<10) { item in
                     RoundedRectangle(cornerRadius: 32)
-                        .fill(Color.blue)
+                        .fill(.blue)
                         .frame(height: 200)
                         .overlay(content: {
                             Text("\(item)")

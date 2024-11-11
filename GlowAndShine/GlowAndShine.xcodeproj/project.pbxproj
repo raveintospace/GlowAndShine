@@ -43,6 +43,7 @@
 		34F96FDC2CE24F2600B9A22D /* PulseAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */; };
 		34F96FDE2CE24F4100B9A22D /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */; };
 		34F96FE02CE255C100B9A22D /* AnimatedVisualScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */; };
+		34F96FE22CE2589800B9A22D /* HorizontalAnimatedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FE12CE2589800B9A22D /* HorizontalAnimatedScroll.swift */; };
 		34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimatedView.swift; sourceTree = "<group>"; };
 		34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
 		34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedVisualScroll.swift; sourceTree = "<group>"; };
+		34F96FE12CE2589800B9A22D /* HorizontalAnimatedScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAnimatedScroll.swift; sourceTree = "<group>"; };
 		34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +160,7 @@
 				34C22B4C2CC174760096AF86 /* CompareImages.swift */,
 				34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */,
 				34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */,
+				34F96FE12CE2589800B9A22D /* HorizontalAnimatedScroll.swift */,
 				34C22B502CC17E290096AF86 /* ParallaxExample.swift */,
 				34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */,
 				34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */,
@@ -314,6 +317,7 @@
 				34525D242CA9B04F00CA1FDA /* NumericCountdown.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 				34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */,
+				34F96FE22CE2589800B9A22D /* HorizontalAnimatedScroll.swift in Sources */,
 				34858D882CC2C59700F97AE9 /* ZoomAndPan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

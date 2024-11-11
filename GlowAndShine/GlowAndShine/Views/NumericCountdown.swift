@@ -58,7 +58,7 @@ extension NumericCountdown {
                 Text(isTimmerRunning ? "Stop" : "Start")
                     .font(.title)
                     .padding()
-                    .background(isTimmerRunning ? Color.red : Color.green)
+                    .background(isTimmerRunning ? .red : .green)
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
@@ -69,7 +69,7 @@ extension NumericCountdown {
                 Text("Reset")
                     .font(.title)
                     .padding()
-                    .background(Color.blue)
+                    .background(.blue)
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }

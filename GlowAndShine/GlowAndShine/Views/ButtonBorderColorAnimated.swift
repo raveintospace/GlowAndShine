@@ -30,7 +30,7 @@ struct ButtonBorderColorAnimated: View {
             
             Button("Swift UIButton") { }
                 .font(.system(size: 32, weight: .bold))
-                .foregroundStyle(Color.white)
+                .foregroundStyle(.white)
                 .frame(width: 200, height: 80)
                 .background(.black)
                 .clipShape(RoundedRectangle(cornerRadius: 20))

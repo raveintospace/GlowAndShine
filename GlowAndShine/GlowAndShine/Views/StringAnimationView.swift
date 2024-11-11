@@ -13,7 +13,7 @@ struct StringAnimationView: View {
     @Environment(\.router) private var router
     
     private let text: String = "SwiftUI Views"
-    private let colors: [Color] = [Color.blue, .orange, .green, .purple, .red, .brown, .white, .pink, .indigo, .mint, .yellow]
+    private let colors: [Color] = [.blue, .orange, .green, .purple, .red, .brown, .white, .pink, .indigo, .mint, .yellow]
     
     @State private var isAnimating: Bool = false
     
