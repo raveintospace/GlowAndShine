@@ -12,10 +12,37 @@ struct RotateAnimation: View {
     
     @Environment(\.router) private var router
     
-    @State private var counter = 0
+    @State private var bounceCounter = 0
+    @State private var rotateCounter = 0
     
     var body: some View {
-        HStack {
+        VStack {
+            HStack {
+                Image(systemName: "fan.desk")
+                    .symbolEffect(.bounce, value: bounceCounter)
+                    .font(.system(size: 120))
+                    .foregroundStyle(.pink)
+                
+                Button("Bounce") {
+                    bounceCounter += 1
+                }
+                .font(.system(size: 20))
+                .buttonStyle(.bordered)
+            }
+            
+            HStack {
+                Image(systemName: "fan.desk")
+                    .symbolEffect(.rotate, value: rotateCounter)
+                    .font(.system(size: 120))
+                    .foregroundStyle(.pink)
+                
+                Button("Rotate") {
+                    rotateCounter += 1
+                }
+                .font(.system(size: 20))
+                .buttonStyle(.bordered)
+            }
+            
             Image(systemName: "xmark.seal")
                 .foregroundStyle(.red)
                 .font(.title)
@@ -23,18 +50,8 @@ struct RotateAnimation: View {
                 .onTapGesture {
                     router.dismissScreen()
                 }
-            
-            Image(systemName: "fan.desk")
-                .symbolEffect(.bounce, value: counter)
-                .font(.system(size: 120))
-                .foregroundStyle(.pink)
-            
-            Button("Activate") {
-                counter += 1
-            }
-            .font(.system(size: 20))
-            .buttonStyle(.bordered)
         }
+
     }
 }
 
