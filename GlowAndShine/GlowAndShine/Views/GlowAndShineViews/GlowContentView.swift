@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct GlowContentView: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var progress1: Double = 0.0
     @State private var progress2: Double = 0.0

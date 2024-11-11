@@ -30,7 +30,7 @@ struct CustomActivityRing: View {
 
 struct ActivityRingsView: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var progress: CGFloat = 0.46
     

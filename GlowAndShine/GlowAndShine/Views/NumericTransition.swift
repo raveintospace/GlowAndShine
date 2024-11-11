@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct NumericTransition: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     var body: some View {
         Text(.now, style: .relative)

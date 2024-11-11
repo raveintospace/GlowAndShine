@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct ButtonBorderColorAnimated: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var isAnimating: Bool = false
     private let myGradient: Gradient = Gradient(colors: [.red, .blue])

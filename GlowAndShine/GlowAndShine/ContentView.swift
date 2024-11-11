@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct ContentView: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     var body: some View {
         List {
@@ -102,6 +102,16 @@ struct ContentView: View {
             Button("Open ParallaxExample") {
                 router.showScreen(.fullScreenCover) { _ in
                     ParallaxExample()
+                }
+            }
+            Button("Open Zoom and Pan") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ZoomAndPan()
+                }
+            }
+            Button("Open Pulse Animated View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    PulseAnimatedView()
                 }
             }
         }

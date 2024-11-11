@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct ParallaxExample: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     let pictures = ["paral1", "paral2", "paral3"]
     

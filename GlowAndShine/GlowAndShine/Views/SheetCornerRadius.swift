@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct SheetCornerRadius: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     @State private var showDetailSheet: Bool = false
     
     var body: some View {

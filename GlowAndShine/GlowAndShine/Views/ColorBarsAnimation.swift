@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct ColorBarsAnimation: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var currentIndex: Int = 0
     let colors: [Color] = [.blue, .green, .yellow, .orange, .red]

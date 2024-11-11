@@ -48,4 +48,5 @@ struct AppleLogo: Shape {
 
 #Preview {
     AppleLogo()
+        .padding()
 }

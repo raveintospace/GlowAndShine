@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct GaugeAnimation: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var value = 0.5
     

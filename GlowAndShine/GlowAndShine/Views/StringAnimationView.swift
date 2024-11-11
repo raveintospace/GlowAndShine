@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct StringAnimationView: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     private let text: String = "SwiftUI Views"
     private let colors: [Color] = [Color.blue, .orange, .green, .purple, .red, .brown, .white, .pink, .indigo, .mint, .yellow]

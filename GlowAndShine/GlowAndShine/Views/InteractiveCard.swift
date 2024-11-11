@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct InteractiveCard: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var dragOffset: CGSize = .zero
     @State private var isDragging: Bool = false

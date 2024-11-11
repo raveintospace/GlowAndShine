@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct ScrollViewVisualEffect: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     var body: some View {
         VStack {

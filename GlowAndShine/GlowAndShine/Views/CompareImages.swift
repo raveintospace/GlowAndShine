@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CompareImages: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     @State private var sliderPosition: CGFloat = 0
     
     var body: some View {

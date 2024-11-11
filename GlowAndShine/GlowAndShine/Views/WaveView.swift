@@ -10,7 +10,7 @@ import SwiftfulRouting
 
 struct WaveView: View {
     
-    @Environment(\.router) var router
+    @Environment(\.router) private var router
     
     @State private var waveOffset: Angle = .zero
     @State private var progress: Double = 0.64
