@@ -1,7 +1,7 @@
 //
 //  Parallax Example.swift
 //  GlowAndShine
-//
+//  https://x.com/AlbertMoral/status/1813288070906802492 
 //  Created by Uri on 17/10/24.
 //
 

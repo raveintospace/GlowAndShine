@@ -33,6 +33,7 @@ struct ScrollViewVisualEffect: View {
                                 }
                             })
                             .frame(height: 100)
+                            .padding()
                             .visualEffect { content, geometry in
                                 return content
                                     .hueRotation(.degrees(geometry.frame(in: .global).midY / 8))

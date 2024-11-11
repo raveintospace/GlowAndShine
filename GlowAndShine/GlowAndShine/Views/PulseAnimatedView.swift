@@ -1,7 +1,7 @@
 //
 //  PulseAnimatedView.swift
 //  GlowAndShine
-//
+//  https://mobileappcircular.com/our-most-loved-swiftui-modifiers-b7ba26216f88
 //  Created by Uri on 11/11/24.
 //
 
@@ -13,10 +13,15 @@ struct PulseAnimatedView: View {
     @Environment(\.router) private var router
     
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Text("Hello, World!")
                 .font(.largeTitle)
                 .foregroundStyle(.blue)
+                .animatePulse()
+            
+            Circle()
+                .foregroundStyle(.red)
+                .frame(width: 100)
                 .animatePulse()
             
             RedXMarkButton()

@@ -42,6 +42,7 @@
 		34D916D22C5D202D00A8662C /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916D12C5D202D00A8662C /* RuleView.swift */; };
 		34F96FDC2CE24F2600B9A22D /* PulseAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */; };
 		34F96FDE2CE24F4100B9A22D /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */; };
+		34F96FE02CE255C100B9A22D /* AnimatedVisualScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */; };
 		34FA2A8B2C4AAA3D00EEDA3F /* AppleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		34D916D12C5D202D00A8662C /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
 		34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimatedView.swift; sourceTree = "<group>"; };
 		34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedVisualScroll.swift; sourceTree = "<group>"; };
 		34FA2A8A2C4AAA3D00EEDA3F /* AppleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				34C22B4A2CC170C10096AF86 /* SheetCornerRadius.swift */,
 				34C22B4C2CC174760096AF86 /* CompareImages.swift */,
 				34C22B4E2CC17A3C0096AF86 /* ScrollViewVisualEffect.swift */,
+				34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */,
 				34C22B502CC17E290096AF86 /* ParallaxExample.swift */,
 				34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */,
 				34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */,
@@ -307,6 +310,7 @@
 				34F96FDE2CE24F4100B9A22D /* PulseAnimation.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
+				34F96FE02CE255C100B9A22D /* AnimatedVisualScroll.swift in Sources */,
 				34525D242CA9B04F00CA1FDA /* NumericCountdown.swift in Sources */,
 				345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */,
 				34879B012C78DAD400FE13F3 /* ActivityRingView.swift in Sources */,
