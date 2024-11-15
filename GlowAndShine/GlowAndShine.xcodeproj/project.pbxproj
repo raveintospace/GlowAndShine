@@ -40,6 +40,7 @@
 		34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D902B72C498591002E916F /* AppleLogoAnimation.swift */; };
 		34D916D02C5D1D7C00A8662C /* InteractiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */; };
 		34D916D22C5D202D00A8662C /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D916D12C5D202D00A8662C /* RuleView.swift */; };
+		34F6AD7D2CE7B2E9008DE709 /* TikTokLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F6AD7C2CE7B2E9008DE709 /* TikTokLoadingView.swift */; };
 		34F96FDC2CE24F2600B9A22D /* PulseAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */; };
 		34F96FDE2CE24F4100B9A22D /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */; };
 		34F96FE02CE255C100B9A22D /* AnimatedVisualScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */; };
@@ -79,6 +80,7 @@
 		34D902B72C498591002E916F /* AppleLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogoAnimation.swift; sourceTree = "<group>"; };
 		34D916CF2C5D1D7C00A8662C /* InteractiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveCard.swift; sourceTree = "<group>"; };
 		34D916D12C5D202D00A8662C /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
+		34F6AD7C2CE7B2E9008DE709 /* TikTokLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokLoadingView.swift; sourceTree = "<group>"; };
 		34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimatedView.swift; sourceTree = "<group>"; };
 		34F96FDD2CE24F4100B9A22D /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
 		34F96FDF2CE255C100B9A22D /* AnimatedVisualScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedVisualScroll.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				34C22B502CC17E290096AF86 /* ParallaxExample.swift */,
 				34858D872CC2C59700F97AE9 /* ZoomAndPan.swift */,
 				34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */,
+				34F6AD7C2CE7B2E9008DE709 /* TikTokLoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				34C22B4D2CC174760096AF86 /* CompareImages.swift in Sources */,
 				34D916D22C5D202D00A8662C /* RuleView.swift in Sources */,
 				34F96FDE2CE24F4100B9A22D /* PulseAnimation.swift in Sources */,
+				34F6AD7D2CE7B2E9008DE709 /* TikTokLoadingView.swift in Sources */,
 				342F69A32C402EB300324BAC /* ButtonBorderColorAnimated.swift in Sources */,
 				34D902B82C498591002E916F /* AppleLogoAnimation.swift in Sources */,
 				34F96FE02CE255C100B9A22D /* AnimatedVisualScroll.swift in Sources */,

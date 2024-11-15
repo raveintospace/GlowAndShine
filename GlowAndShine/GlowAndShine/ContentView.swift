@@ -124,6 +124,11 @@ struct ContentView: View {
                     PulseAnimatedView()
                 }
             }
+            Button("Open TikTok Loading View") {
+                router.showScreen(.fullScreenCover) { _ in
+                    TikTokLoadingView()
+                }
+            }
         }
     }
 }
