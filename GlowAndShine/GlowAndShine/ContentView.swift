@@ -129,9 +129,14 @@ struct ContentView: View {
                     TikTokLoadingView()
                 }
             }
-            Button("Open Button Animated Border View") {
+            Button("Open Button Animated Border") {
                 router.showScreen(.fullScreenCover) { _ in
                     ButtonAnimatedBorder()
+                }
+            }
+            Button("Open Screenshot Detector") {
+                router.showScreen(.fullScreenCover) { _ in
+                    ScreenshotDetector()
                 }
             }
         }

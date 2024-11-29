@@ -21,6 +21,7 @@
 		345BC87C2C38499200098BC1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87B2C38499200098BC1 /* ProgressView.swift */; };
 		345BC87E2C384BA000098BC1 /* GlowContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BC87D2C384BA000098BC1 /* GlowContentView.swift */; };
 		346C2A0C2CFA363800C4A41E /* ButtonAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C2A0B2CFA363800C4A41E /* ButtonAnimatedBorder.swift */; };
+		346C2A0E2CFA3AAE00C4A41E /* ScreenshotDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C2A0D2CFA3AAE00C4A41E /* ScreenshotDetector.swift */; };
 		3470785B2C6F9CBE00F1B9B8 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */; };
 		3470785D2C6F9EFF00F1B9B8 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */; };
 		347078602C6FA30D00F1B9B8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3470785F2C6FA30D00F1B9B8 /* ConfettiSwiftUI */; };
@@ -65,6 +66,7 @@
 		345BC87B2C38499200098BC1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		345BC87D2C384BA000098BC1 /* GlowContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowContentView.swift; sourceTree = "<group>"; };
 		346C2A0B2CFA363800C4A41E /* ButtonAnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimatedBorder.swift; sourceTree = "<group>"; };
+		346C2A0D2CFA3AAE00C4A41E /* ScreenshotDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotDetector.swift; sourceTree = "<group>"; };
 		3470785A2C6F9CBE00F1B9B8 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		3470785C2C6F9EFF00F1B9B8 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		347078612C6FA32A00F1B9B8 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				34F96FDB2CE24F2600B9A22D /* PulseAnimatedView.swift */,
 				34F6AD7C2CE7B2E9008DE709 /* TikTokLoadingView.swift */,
 				346C2A0B2CFA363800C4A41E /* ButtonAnimatedBorder.swift */,
+				346C2A0D2CFA3AAE00C4A41E /* ScreenshotDetector.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				345BC8682C38420A00098BC1 /* DuneCircle.swift in Sources */,
 				3470785B2C6F9CBE00F1B9B8 /* WaveShape.swift in Sources */,
 				34CCB90E2C84D2C300D151F7 /* ContentView.swift in Sources */,
+				346C2A0E2CFA3AAE00C4A41E /* ScreenshotDetector.swift in Sources */,
 				345BC8662C38420A00098BC1 /* GlowAndShineApp.swift in Sources */,
 				345BC87E2C384BA000098BC1 /* GlowContentView.swift in Sources */,
 				345BC8782C3845CC00098BC1 /* GlowCapsule.swift in Sources */,
